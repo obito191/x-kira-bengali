@@ -104,7 +104,7 @@ Module({
   await message.conn.sendMessage(
     message.from,
     {
-      text: `*${emoji}⧫𝔓⦿𝖓𝖌 ${latency} 𝖒ˢ*`,
+      text: `*${emoji}⭗⸼⸼𝕻⁐𝖓𝖌 ${latency} 𝖒ˢ*\n> 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆 𝗥𝗶𝗳𝗮𝘁`,
       contextInfo: {
         mentionedJid: [message.sender],
         forwardingScore: 5,
