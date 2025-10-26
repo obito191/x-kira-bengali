@@ -7,7 +7,7 @@ if (existsSync(path.join(__dirname, "config.env"))) {
 const isTrue = (x) => x === "true" || x === true;
 const DB_URL = process.env.DATABASE_URL || "";
 module.exports = {
-  prefix: process.env.PREFIX || ".",
+  prefix: process.env.PREFIX || "💋",
   owner: process.env.OWNER_NUMBER || "917074029156",
   sudo: process.env.SUDO || "917074029156",
   packname: process.env.PACKNAME || "ɠαɾϝιҽʅɗ",
