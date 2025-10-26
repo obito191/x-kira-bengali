@@ -7,7 +7,7 @@ const config = require("../config");
 const TextStyles = require("../lib/textfonts");
 const styles = new TextStyles();
 
-const name = "X-kira ━ 𝐁𝕺𝐓";
+const name = "𝚁ιfαт ━ вσт";
 
 const runtime = (secs) => {
   const pad = (s) => s.toString().padStart(2, "0");
@@ -88,7 +88,7 @@ ${readMore}
       }
     }
 
-    _cmd_st += `\n💖 *~_Made with love by X-kira_~*`;
+    _cmd_st += `\n💖 *~_Made with love by 𝚁ιfαт_~*`;
   }
   const channelJid = "120363400835083687@newsletter";
   const channelName = "© X-kira";
@@ -101,11 +101,6 @@ ${readMore}
     contextInfo: {
       forwardingScore: 999,
       isForwarded: true,
-      forwardedNewsletterMessageInfo: {
-        newsletterJid: channelJid,
-        newsletterName: channelName,
-        serverMessageId: serverMessageId,
-      },
     },
   };
 
