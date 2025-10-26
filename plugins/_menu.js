@@ -91,11 +91,11 @@ ${readMore}
     _cmd_st += `\n💖 *~_Made with love by 𝚁ιfαт_~*`;
   }
   const channelJid = "120363400835083687@newsletter";
-  const channelName = "© X-kira";
+  const channelName = "©ira";
   const serverMessageId = 6;
 
   const opts = {
-    image: { url: getRandomPhoto() || "https://files.catbox.moe/n9ectm.jpg" },
+    image: { url: "https://files.catbox.moe/nn36r7.jpg" },
     caption: _cmd_st,
     mimetype: "image/jpeg",
     contextInfo: {
