@@ -7,7 +7,7 @@ const config = require("../config");
 const TextStyles = require("../lib/textfonts");
 const styles = new TextStyles();
 
-const name = "𝚁ιfαт ━ вσт";
+const name = "ᴅᴀʀᴋ ━ σ";
 
 const runtime = (secs) => {
   const pad = (s) => s.toString().padStart(2, "0");
@@ -88,14 +88,14 @@ ${readMore}
       }
     }
 
-    _cmd_st += `\n💖 *~_Made with love by 𝚁ιfαт_~*`;
+    _cmd_st += `\n💖 *~_Made with love by ᴏʙɪᴛᴏ_~*`;
   }
   const channelJid = "120363400835083687@newsletter";
   const channelName = "©ira";
   const serverMessageId = 6;
 
   const opts = {
-    image: { url: "https://files.catbox.moe/244235.jpg" },
+    image: { url: "https://intact-silver-mflddz5ftj-u48ma4vs8w.edgeone.dev/Picsart_25-10-29_23-22-03-391.jpg" },
     caption: _cmd_st,
     mimetype: "image/jpeg",
     contextInfo: {
