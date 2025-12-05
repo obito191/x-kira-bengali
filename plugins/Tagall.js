@@ -74,7 +74,7 @@ Module({
       "💀",
     ];
     const getEmoji = () => emojis[Math.floor(Math.random() * emojis.length)];
-    let tagText = `*▢ GROUP : ${groupName}*\n*▢ MEMBERS : ${totalMembers}*\n*▢ MESSAGE : ${msgText}*\n\n*╭┈─「ℓσνє ωιтн 𝚁ιfαт 🥰 」┈❍*\n`;
+    let tagText = `*▢ GROUP : ${groupName}*\n*▢ MEMBERS : ${totalMembers}*\n*▢ MESSAGE : ${msgText}*\n\n*╭┈─「 ᴏʙɪᴛᴏ 🥰 」┈❍*\n`;
     for (const p of participants) {
       tagText += `*│${getEmoji()} ᩧ𝆺ྀི𝅥* @${p.id.split("@")[0]}\n`;
     }
